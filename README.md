@@ -109,7 +109,7 @@ export const latLongCommunities = [
 ];
 ```
 
-Como vamos a realizar una comparación entre el principio y la actualidad de la pandemia, pondremos 2 botones para ver el cambio de ocupación en los hospitales:
+- Como vamos a realizar una comparación entre el principio y la actualidad de la pandemia, pondremos 2 botones para ver el cambio de ocupación en los hospitales:
 
 ```sh
 <html>
@@ -128,7 +128,7 @@ Como vamos a realizar una comparación entre el principio y la actualidad de la 
 </html>
 ```
 
-Importaremos las estadísticas de los Datos Iniciales y los Datos Iniciales con el siguiente comando, ambos dentro de data.ts. Los datos finales han sido obtenidos del Ministerio de Sanidad, según la ocupación en camas UCI´s.
+- Importaremos las estadísticas de los Datos Iniciales y los Datos Iniciales con el siguiente comando, ambos dentro de data.ts. Los datos finales han sido obtenidos del Ministerio de Sanidad, según la ocupación en camas UCI´s.
 
 ```sh
 import {
@@ -280,7 +280,7 @@ export const stats2 : ResultEntry[]= [
 
 ```
 
-Según cada Comunidad Autónoma, el numero de hospitalizados es distinto, por lo que haremos una relación directa entre el radio de nuestro círculo y el numero de hospitalizados en camas UCI's, para ello definimos la funcion calculateRadiusBasedOnAffectedCases:
+- Según cada Comunidad Autónoma, el numero de hospitalizados es distinto, por lo que haremos una relación directa entre el radio de nuestro círculo y el numero de hospitalizados en camas UCI's, para ello definimos la funcion calculateRadiusBasedOnAffectedCases:
 
 ```sh
 const calculateRadiusBasedOnAffectedCases = (comunidad: string, s: ResultEntry[]) => {
@@ -290,7 +290,7 @@ const calculateRadiusBasedOnAffectedCases = (comunidad: string, s: ResultEntry[]
 };
 ```
 
-Para relizar la comparación, agregaremos un método para intercambiar los datos que estamos usando, tanto los iniciales como los finales:
+- Para relizar la comparación, agregaremos un método para intercambiar los datos que estamos usando, tanto los iniciales como los finales:
 
 
 ```sh
@@ -305,7 +305,7 @@ const updateRadius = (data: ResultEntry[]) => {
 };
 ```
 
-Hacemos una relación directa de los datos iniciales y actuales con cada botón:
+- Hacemos una relación directa de los datos iniciales y actuales con cada botón:
 
 ```sh
 document
