@@ -7,7 +7,7 @@ En esta tarea realizaremos una comparación sobre el Mapa de España con todas s
 Para mostar el mapa de España, lo saco de la siguiente url:
 https://github.com/deldersveld/topojson/blob/master/countries/spain/spain-comunidad-with-canary-islands.json
 
-A la hora de marcar el círculo con la ocupación de las camas UCI´s sobre cada Comunidad Autónoma utilizaremos la longitud y latitud para trazarlo, implemento el archivo que he utilizado.
+- A la hora de marcar el círculo con la ocupación de las camas UCI´s sobre cada Comunidad Autónoma utilizaremos la longitud y latitud para trazarlo, implemento el archivo que he utilizado.
 
 ```sh
 export const latLongCommunities = [
