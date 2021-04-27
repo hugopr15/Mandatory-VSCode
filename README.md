@@ -109,7 +109,7 @@ export const latLongCommunities = [
 ];
 ```
 
-- Como vamos a realizar una comparación entre el principio y la actualidad de la pandemia, pondremos 2 botones para ver el cambio de ocupación en los hospitales:
+- Realizamos una comparación entre el principio y la actualidad de la pandemia, pondremos 2 botones para ver el cambio de ocupación en los hospitales:
 
 ```sh
 <html>
@@ -305,7 +305,7 @@ const updateRadius = (data: ResultEntry[]) => {
 };
 ```
 
-- Hacemos una relación directa de los datos iniciales y actuales con cada botón:
+- Creamos una relación directa de los datos iniciales y actuales con cada botón:
 
 ```sh
 document
